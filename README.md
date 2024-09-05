@@ -20,20 +20,35 @@ LON —> Centroid longitude location
 LAT —> Centroid latitude location
 
 Orient —> Orientation of the ellipse as computed from angle from horizontal in X direction
+
 Major Axis —> Major axis length (in km)
+
 Minor Axis —> Minor axis length (in km)
+
 Semi_X —> Semimajor axis length in X direction (Cartesian)
+
 Semi_Y —> Semimajor axis length in Y direction (Cartesian)
+
 Rain_0mm_Total —> Sum of all the rain rates in the feature
+
 Rain_Max —> Maximum precipitation rate found in feature
+
 Rain Mean —> Mean precipitation rate of the feature
+
 Rain Variance —> Variance of precipitation rate of the feature
+
 NP > 5 mm —> Number of points in the feature with rain rates exceeding 5 mm/hr
+
 NP >10 mm —> Number of points in the feature with rain rates exceeding 10 mm/hr
+
 NP >25 mm —> Number of points in the feature with rain rates exceeding 25 mm/hr
+
 ND > 1 hr —> Number of points where the duration exceeds 1 hour (EXPERIMENTAL)
+
 ND > 2 hr —> Number of points where the rain duration exceeds 2 hours (EXPERIMENTAL)
+
 ND > 6 hr —> Number of points where the rain duration exceeds 6 hours (EXPERIMENTAL)
+
 
 You need to download this file to run DisertationOnlyCenter.m and DisertationFullClouds.m.
 
