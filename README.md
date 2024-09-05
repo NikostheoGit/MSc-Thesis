@@ -1,8 +1,8 @@
 In this work, we have a radar that captures pictures of the atmosphere every 5
 minutes. After some modifications, the observed storm cells are stored as ellipsoids.
 We use the Kalman filter as a forecast tool in order to track and predict the
-movement of these storm clouds. At the same time we will test Kalman filter under
-different parameters to see how it responds and which of these parameters fit better
+movement of these storm clouds. At the same time we will test Kalman filter under
+different parameters to see how it responds and which of these parameters fit better
 our storm tracking problem. Kalman filter is ideal for now-casting and will allow you
 to model any linear system accurately.
 
