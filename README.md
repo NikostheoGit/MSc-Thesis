@@ -8,11 +8,17 @@ to model any linear system accurately.
 
 1. The dataset Data.rar is in a comma-separated ASCII file.  The fields are:
 Feature number —> Meaningless, just there as a marker
+
 Feature N_Points —> Number of points of the feature, also its area in km^2 as the base data is approximately in 1 km^2 pixels
+
 Center_X —> Cartesian X location of fitted ellipse center
+
 Center_Y —> Cartesian Y location of fitted ellipse center
+
 LON —> Centroid longitude location
+
 LAT —> Centroid latitude location
+
 Orient —> Orientation of the ellipse as computed from angle from horizontal in X direction
 Major Axis —> Major axis length (in km)
 Minor Axis —> Minor axis length (in km)
@@ -33,7 +39,7 @@ You need to download this file to run DisertationOnlyCenter.m and DisertationFul
 
 2. DisertationOnlyCenter.m <--- Here we track only the center of the storm clouds.
 
-3. DisertationFullClouds.m <--- Full Storm cloud tracking
+3. DisertationFullClouds.m <--- Full Storm cloud tracking.
 In order to run DisertationFullClouds.m properly you need elipse.m and implicit.m
 
 4. For full display, check my Thesis.pdf
