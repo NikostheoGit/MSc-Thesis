@@ -1,4 +1,5 @@
-In this work, we have a radar that captures pictures of the atmosphere every 5
+In this work, we have a radar that captures pictures of the atmosphere above UK for all
+days of December 2015. We have such pictures for every 5
 minutes. After some modifications, the observed storm cells are stored as ellipsoids.
 We use the Kalman filter as a forecast tool in order to track and predict the
 movement of these storm clouds. At the same time we will test Kalman filter under
