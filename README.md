@@ -4,8 +4,8 @@ minutes. After some modifications, the observed storm cells are stored as ellips
 We use the Kalman filter as a forecast tool in order to track and predict the
 movement of these storm clouds. At the same time we will test Kalman filter under
 different parameters to see how it responds and which of these parameters fit better
-our storm tracking problem. Kalman filter is ideal for now-casting and will allow you
-to model any linear system accurately.
+our storm tracking problem. The Kalman filter uses a mathematical model to predict the system's future state and then corrects this prediction using new measurements. 
+It operates recursively, updating its estimates as new data arrives, which makes it ideal for real-time applications where data is continuously incoming.
 
 1. The dataset Data.rar is in a comma-separated ASCII file.  The fields are:
 
